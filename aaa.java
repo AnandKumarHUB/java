@@ -1,0 +1,26 @@
+ class PalindromOfString 
+{
+	  boolean   isPalindromOfString (String S)
+	{
+		for(int i=0;i<S.length();i++)
+		{
+			if(S.charAt(i)!=S.charAt(S.length()-1-i))
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+	
+}
+class aaa
+{
+	
+	public static void main(String[] args) 
+	{
+		PalindromOfString A=new PalindromOfString();
+		System.out.println(A.isPalindromOfString("anand"));
+	}
+
+}
+                 

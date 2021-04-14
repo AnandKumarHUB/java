@@ -1,0 +1,13 @@
+class Var_arguments1 
+{
+	public static void main(String[] args) 
+	{
+		m1();
+		m1(1,2,3);
+			m1(1,2,3,4,5,6);
+	}
+	static void m1(int ... a)
+	{
+		System.out.println("excution of m1");
+	}
+}

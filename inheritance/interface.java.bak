@@ -1,0 +1,26 @@
+interface I
+{
+	void m1();
+}
+class A
+{
+    void m1(){
+	   System.out.println("m1 in A");
+}
+}
+class B extends A implements I
+{
+	public void m1(){
+		super.m1();
+	System.out.println("m1 in B");
+	}
+}
+class Int 
+{
+	public static void main(String[] args) 
+	{
+		//System.out.println("Hello World!");
+		I i=new B();
+		i.m1();
+	}
+}

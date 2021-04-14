@@ -1,0 +1,14 @@
+class Casttng2 
+{
+	static void m1(int d)
+	{
+		System.out.println(d);
+	}
+
+	public static void main(String[] args) 
+	{
+		double i=5;
+		//m1(i); possible lossy conversion from double to int
+		m1((int)i);
+	}
+}

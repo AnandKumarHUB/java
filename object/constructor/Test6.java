@@ -1,0 +1,40 @@
+class Box 
+{
+	int height;
+	int weight;
+	int lenght;
+	Box()
+	{}
+	
+	Box(int h,int w,int l)
+		{
+			height=h;
+			weight=w;
+			lenght=l;
+		}
+	
+	Box(int n)
+	{
+		/*height=n;
+		weight=n;
+		lenght=n;*/
+		this(n,n,n); 
+	}
+	void Display()
+	{
+		System.out.println(height+","+weight+","+lenght);
+	}
+}=
+class Test6
+{
+	public static void main(String[] args) 
+	{
+		Box b1=new Box();
+		Box b2=new Box(4);
+		Box b3=new Box(5,3,7);
+		b1.Display();
+		b2.Display();
+		b3.Display();
+
+	}
+}

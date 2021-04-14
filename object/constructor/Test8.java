@@ -1,0 +1,31 @@
+class Bike 
+{
+	String color;
+	Bike(String l)
+	{
+		color=l;
+	}
+}
+
+class C
+{
+	void m1(Bike B)
+	{
+		System.out.println("M1 starts");
+		B.color="black";
+		System.out.println("M1 ends");
+	}
+}
+
+class Test8
+{
+	public static void main(String[] args) 
+	{
+		Bike b1=new Bike("red");
+		System.out.println(b1.color);
+		
+		C c1=new C(); 
+		c1.m1(b1);
+		System.out.println(b1.color);
+	}
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Pattern6 
+{
+	public static void main(String[] args) 
+	{		
+		Scanner scn=new Scanner(System.in);
+		System.out.println("enter the N value");
+		int n=scn.nextInt();	
+		char s;
+		System.out.println("this is patten 6");
+		for(int i=1;i<=n;i++)
+		{
+		/*System.out.println("enter the character value");
+		char s = scn.next().charAt(0);*/
+		s='a';
+		
+			for(int j=1;j<=i;j++)
+			{
+				
+				System.out.print(" "+s);
+				s++;
+			}
+			
+		System.out.println();
+	}
+}
+} 

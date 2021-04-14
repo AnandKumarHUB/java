@@ -1,0 +1,9 @@
+class A
+{
+	int i;
+	void m1()
+	{
+		int i=1;
+		System.out.println(i);
+
+}

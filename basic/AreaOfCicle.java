@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class AreaOfCicle 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scn=new Scanner(System.in);
+		System.out.println("enter R value");
+		int r=scn.nextInt();
+		double area=3.14*Math.pow(r,2);
+		System.out.println("Area of cicle is  = "+area);
+	}
+}

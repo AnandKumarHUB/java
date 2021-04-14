@@ -1,0 +1,18 @@
+class B
+{
+}
+class C
+{
+	C(int i)
+	{
+		System.out.println(i);
+	}
+}
+class Test2
+{
+	public static void main(String[] args) 
+	{
+		 new B();
+		new C(10);
+		}
+}

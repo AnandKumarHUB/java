@@ -1,0 +1,17 @@
+class Var_arguments3 
+{
+	public static void main(String[] args) 
+	{
+	m1(1,3);
+	m1(1,2,3,4,5);
+	m1(3,4,5);
+	}
+	static void m1(int ... a)
+	{
+		for(int i=0;i<a.length;i++)
+		{
+			System.out.print(a[i]+" ");
+		}
+		System.out.println();
+	}
+}

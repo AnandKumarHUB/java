@@ -1,0 +1,19 @@
+class Student 
+{
+	static int count;
+	Student()
+	{
+		count++;
+		System.out.println("Student obj count");
+	}
+}
+class Test3
+{
+	public static void main(String[] args) 
+	{
+		new Student();
+		new Student();
+		new Student();
+		System.out.println(Student.count);
+	}
+}

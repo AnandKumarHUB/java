@@ -1,0 +1,9 @@
+class Explixit 
+{
+	public static void main(String[] args) 
+	{
+		byte i=5;
+		int  b=(int)i;// bigger to lower is called narrowing.
+		System.out.println(b);
+	}
+}

@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class Feb7 
+{
+	public static void main(String[] args) 
+	{
+	Scanner scn=new Scanner(System.in);
+	System.out.println("enter the  number to get after that");
+	int p=scn.nextInt();
+	System.out.println("enter the  number to get before that");
+	int q=scn.nextInt();
+	int a=0;
+	int b=1;
+	int c;
+	//System.out.print(a+" "+b);
+	while(true)
+		{
+		c=a+b;
+		if(c>=q)
+			break;
+		if(c>p)
+		 
+			
+			System.out.print(" "+c);
+			a=b;
+			b=c;
+			
+		}
+	}
+}
